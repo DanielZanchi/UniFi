@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+/Users/Danny/Documents/Eclipse/PizzeriaDiddieffe/.metadata/.plugins/org.eclipse.jdt.core
+2410472252.index
