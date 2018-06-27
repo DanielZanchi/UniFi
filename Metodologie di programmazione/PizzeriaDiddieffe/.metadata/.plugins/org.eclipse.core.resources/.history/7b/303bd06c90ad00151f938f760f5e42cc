@@ -1,7 +1,0 @@
-package gui;
-
-public class OrderManager {
-	checkOrder(String id) {
-		
-	}
-}
