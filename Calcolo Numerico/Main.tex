@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper]{book}
+\usepackage{amsfonts}
+\usepackage[latin1]{inputenc}
+\usepackage{upgreek}
+\usepackage[numbered,framed]{matlab-prettifier}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{import}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\usepackage{tabu}
+\usepackage{mathtools}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{listings}
+\usepackage{titling}
+
+\lstset{
+	style              = Matlab-editor,
+	basicstyle         = \mlttfamily,
+	escapechar         = ",
+	mlshowsectionrules = true,
+}
+
+\pretitle{%
+  \begin{center}
+  \LARGE
+  \includegraphics[width=\textwidth/4]{logo_unifi.png}\\[\bigskipamount]
+}
+\posttitle{\end{center}}
+
+\begin{document}
+
+\title{\vspace{2cm}Elaborato di\\ \textbf{Calcolo Numerico}\\ Anno Accademico 2017/2018\vspace{3cm}}
+
+\author{
+	Daniel \textbf{Zanchi}, \texttt{5655418} --- \href{mailto:daniel,zanchi@stud.unifi.it}{\textit{daniel.zanchi@stud.unifi.it}}
+}
+\date{}
+\maketitle
+
+\chapter{Esercizi A.A. 2017-18}
+\input{Capitolo1/Cap1.tex}
+\chapter{Esercizi A.A. 2017-18}
+\input{Capitolo2/Cap2.tex}
+\chapter{Esercizi A.A. 2017-18}
+\input{Capitolo3/Cap3.tex}
+\chapter{Esercizi A.A. 2017-18}
+\input{Capitolo4/Cap4.tex}
+\chapter{Esercizi A.A. 2017-18}
+\input{Capitolo5/Cap5.tex}
+\chapter{Esercizi A.A. 2017-18}
+\input{Capitolo6/Cap6.tex}
+
+\end{document}

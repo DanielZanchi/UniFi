@@ -1,0 +1,66 @@
+\documentclass[12pt,a4paper]{book}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsfonts}
+\usepackage[latin1]{inputenc}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{upgreek}
+\usepackage{amsmath}
+\usepackage[numbered,framed]{matlab-prettifier}
+
+\lstset{
+style              = Matlab-editor,
+basicstyle         = \mlttfamily,
+escapechar         = ",
+mlshowsectionrules = true,
+}
+
+\begin{document}
+\markboth{CAPITOLO 4. ESERCIZI A.A. 2017-18}{CAPITOLO 4. ESERCIZI A.A. 2017-18}
+\begin{flushleft}
+\textbf{Esercizio 4.1} \textit{Scrivere una function Matlab che implementi il calcolo del polinomio interpolante di grado \textit{n} in forma di Lagrange. \\La forma della function deve essere del tipo: \lstinline[language=Matlab]{y = lagrange( xi, fi, x )}}\\
+\textbf{Soluzione: } \lstinputlisting[language=Matlab]{es4_1.m}
+\bigskip
+\textbf{Esercizio 4.2} \textit{Scrivere una function Matlab che implementi il calcolo del polinomio interpolante di grado \textit{n} in forma di Newton. \\La forma della function deve essere del tipo: \lstinline[language=Matlab]{y = newton( xi, fi, x )}}\\
+\textbf{Soluzione: } \lstinputlisting[language=Matlab]{es4_2.m}
+\bigskip
+\textbf{Esercizio 4.3} \textit{Scrivere una function Matlab che implementi il calcolo del polinomio interpolante di Hermite. \\La forma della function deve essere del tipo: \lstinline[language=Matlab]{y = hermite( xi, fi, f1i, x )}}\\
+\textbf{Soluzione: }  \lstinputlisting[language=Matlab]{es4_3.m}
+\newpage
+\textbf{Esercizio 4.4} \textit{Utilizzare le functions degli esercizi precedenti per disegnare l'approssimazione della funzione \(\sin(x)\) nell'intervallo \([0, 2\pi]\), utilizzando le ascisse di interpolazione \(x_i=i\pi\), \(i= 0,1,2\).}\\
+\textbf{Soluzione: }
+\begin{center}
+	\includegraphics[scale=0.31]{es4_4.png}
+\end{center}
+Possiamo notare come il polinomio di Lagrange e Newton genera una retta $y=0$ essendo $f_{i} = 0$ in tutte le ascisse.
+\lstinputlisting[language=Matlab]{es4_4.m}
+\bigskip
+\textbf{Esercizio 4.5} \textit{Scrivere una function Matlab che implementi la spline cubica interpolante (naturale o \textit{not-a-knot}, come specificato in ingresso) delle coppie di dati assegnate. La forma della funcion deve essere del tipo: \lstinline[language=Matlab]{y = spline3(xi, fi, x, tipo)}}\\
+\textbf{Soluzione: } Il seguente codice Matlab implementa la function richiesta. Per rendere il codice più leggibile sono state craete varie sottofunzioni.\\ Il codice è stato testato con un banale esempio:
+\lstinputlisting[language=Matlab]{es4_5.m}
+\bigskip
+\textbf{Esercizio 4.6} \textit{Scrivere una function Matlab che implementi il calcolo delle ascisse di Chebyshev per il polinomio interpolante di grado \textit{n}, su un generico intervallo \([a, b]\). \\La function deve essere del tipo: \lstinline[language=Matlab]{ xi = ceby( n, a, b )}}\\
+\textbf{Soluzione: }
+\lstinputlisting[language=Matlab]{es4_6.m}
+\newpage
+\textbf{Esercizio 4.7} \textit{Utilizzare le function degli Esercizi 4.1 e 4.6 per graficare l'approssimazione della funzione di Runge sull'intervallo \([-6, 6]\), per \(n = 2, 4, 6, \ldots, 40\). Stimare numericamente l'errore commesso in funzione del grado \textit{n} del polinomio interpolante.}\\
+\textbf{Soluzione: } Di seguito i grafici che mostrano i polinomi interpolanti di grado \textit{n} calcolati utilizzando come punti di interpolazione quelli corrispondenti alle \textit{n} ascisse di Chebyshev, sovrapposti al grafico della funzione di Runge: \(f(x) = \frac{1}{1+x^2}\). \\
+\begin{tabular}{c c}
+\(n=2\) & \(n=4\) \\
+\includegraphics[scale=0.333]{es4_7_img2.png} &  \includegraphics[scale=0.333]{es4_7_img4.png} \\
+\(n=6\)& \(n=8\) \\
+\includegraphics[scale=0.333]{es4_7_img6.png} &  \includegraphics[scale=0.333]{es4_7_img8.png} \\
+\(n=10\) &  \(n=12\) \\
+\includegraphics[scale=0.333]{es4_7_img10.png} &  \includegraphics[scale=0.333]{es4_7_img12.png} \\
+\end{tabular} \\
+\noindent\begin{tabular}{c c}
+\(n=15\) & \(n=20\) \\
+\includegraphics[scale=0.333]{es4_7_img15.png} &  \includegraphics[scale=0.333]{es4_7_img20.png} \\
+\(n=25\)& \(n=30\) \\
+\includegraphics[scale=0.333]{es4_7_img25.png} &  \includegraphics[scale=0.333]{es4_7_img30.png} \\
+\(n=35\) &  \(n=40\) \\
+\includegraphics[scale=0.333]{es4_7_img35.png} &  \includegraphics[scale=0.333]{es4_7_img40.png} \\
+\end{tabular} \\
+Notiamo che utilizzando le ascisse di Chebyshev aumentando il numero di punti ottenaimo un approssiamazione sempre più vicina alla funzione di Runge. Infatti l

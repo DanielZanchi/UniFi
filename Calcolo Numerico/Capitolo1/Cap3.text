@@ -1,0 +1,209 @@
+\documentclass[12pt,a4paper]{book}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsfonts}
+\usepackage[latin1]{inputenc}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{upgreek}
+\usepackage{amsmath}
+\usepackage[numbered,framed]{matlab-prettifier}
+
+\lstset{
+style              = Matlab-editor,
+basicstyle         = \mlttfamily,
+escapechar         = ",
+mlshowsectionrules = true,
+}
+
+\begin{document}
+\markboth{CAPITOLO 3. ESERCIZI A.A. 2017-18}{CAPITOLO 3. ESERCIZI A.A. 2017-18}
+\begin{flushleft}
+\textbf{Esercizio 3.1} \textit{Scrivere una function Matlab per la risoluzione di un sistema lineare con matrice dei coefficienti triangolare inferiore a diagonale unitaria. Inserire un esempio di utilizzo.}\\
+\textbf{Soluzione: }
+\lstinputlisting[language=Matlab]{es3_1.m}
+Il codice risolve sistemi lineari con matrice dei coefficenti triangolare inferiore a diagonale unitaria dove in input viene presa la matrice dei coefficienti \(A\) e il vettore dei termini noti \(b\) restituendo  vettore con le soluzioni.\\
+Un esempio è il seguente:
+\[
+\begin{bmatrix}1 & 0 & 0 \\ 3 & 1 & 0\\ 4 & 1 & 2 \end{bmatrix} \bar{x} = \begin{bmatrix}1 \\ 2 \\ 3 \end{bmatrix}
+\]
+Il vettore delle soluzioni calcolato dalla funzione è: \(\begin{bmatrix}1 & -1 & 0 \end{bmatrix}\).\\
+\bigskip
+\textbf{Esercizio 3.2} \textit{Utilizzare l'Algoritmo 3.6 del libro per stabilire se le seguenti matrici sono sdp o no,}
+
+\[
+A_1 = \begin{pmatrix}1 & -1 & 2 & 2 \\ -1&5&-14&2\\ 2&-14&42&2\\2&2&2&65 \end{pmatrix},
+A_2 = \begin{pmatrix}1 & -1 & 2 & 2 \\ -1&6&-17&3\\ 2&-17&48&-16\\2&3&-16&4 \end{pmatrix}
+\]
+
+\textbf{Soluzione: }Il seguente codice implementa l'algoritmo richiesto e si evince che la matrice $A_{1}$ è simmetrica e difinita positiva mentre la matrice $A_{2}$ non lo è:\\
+\newpage
+\lstinputlisting[language=Matlab]{es3_2.m}
+\bigskip
+\textbf{Esercizio 3.3}
+\textit{Scrivere una function Matlab che, avendo in ingresso un vettore b contenente i termini noti del sistema lineare \(Ax = b\) con \textit{A} sdp e l'output dell'Algoritmo 3.6 del libro (matrice \(A\) riscritta nella porzione triangolare inferiore con i fattori \(L\) e \(D\) della fattorizzazione \(LDL^T\) di \(A\)), ne calcoli efficientemente la soluzione.}\\
+\textbf{Soluzione: }
+\lstinputlisting[language=Matlab]{es3_3.m}
+La function \lstinline[language=Matlab]{sistema_triang_inf} è stata implementata nell'esercizio 1 di questo capitolo.\\
+\bigskip
+\textbf{Esercizio 3.4} \textit{Scrivere una function Matlab che, avendo in ingresso un vettore b contenente i termini noti del sistema lineare \(Ax = b\)  e l'output dell'Algoritmo 3.7 del libro (matrice \(A\) riscritta con la fattorizzazione LU con pivoting parziale e il vettore p delle permutazioni), ne calcoli efficientemente la soluzione.}\\
+\textbf{Soluzione: }
+Il seguente codice calcola quanto richiesto, le function \lstinline[language=Matlab]{sistema_triang_inf} e \lstinline[language=Matlab]{sistema_triang_sup} sono quelle degli Esercizi 1 e 3.\\
+\lstinputlisting[language=Matlab]{es3_4.m}
+\bigskip
+\textbf{Esercizio 3.5} \textit{Inserire alcuni esempi di utilizzo delle due function implementate per i punti 3 e 4, scegliendo per ciascuno di essi un vettore \(\hat{x}\) e ponendo \(b = A\hat{x}\). Riportare \(\hat{x}\) e la soluzione \(x\) da essi prodotta. Costruire anche una tabella in cui, per ogni esempio considerato, si riportano il numero di condizionamento di A in norma 2 (usare \textbf{cond} di Matlab) e le quantità \(||r||/||b||\) e \(||x-\hat{x}||/||\hat{x}||\).}\\
+\textbf{Soluzione: } Per dimostrare le function dell'esercizio 3 (risoluzione di sistemi $LDL^T$) e dell'esercizio 4 (scomposizione LU con pivoting parziale) verrà utilizzata la seguente matrice:\\
+\[
+A = \begin{pmatrix} 1 & -1 & 2 & 2 \\ -1 & 5 & -14 & 2\\ 2 & -14 & 42 & 2\\ 2 & 2 & 2 & 65 \end{pmatrix}
+\]
+\noindent I vettori scelti sono, rispettivamente per svolgere gli esercizi 3 e 4:
+
+\[
+\hat{x}_3 = \begin{bmatrix} 5.1211 \\ 3.4433 \\ 0.1257 \\ 2.1579 \end{bmatrix},
+\hat{x}_4 = \begin{bmatrix} 1.3345 \\ 2.3232 \\ 3.1175 \\ 1.6658 \end{bmatrix}
+\]
+
+\noindent Ponendo \(b=A\hat{x}\) risulterà rispettivamente:
+\\
+\[
+b_3 = \begin{bmatrix} 6.2450 \\ 14.6514 \\ -28.3688 \\ 157.6437 \end{bmatrix},
+b_4 = \begin{bmatrix} 8.5779 \\ -30.0319 \\ 104.4108 \\ 121.8274 \end{bmatrix}
+\]
+
+\noindent Eseguendo le function create per la risoluzione del sistema viene generata la seguente soluzione:
+
+\[
+x_3 = \begin{bmatrix} 5.12110000000000 \\ 3.44330000000000 \\ 0.125699999999998 \\ 2.15790000000000 \end{bmatrix},
+x_4 = \begin{bmatrix} 1.33450000000002 \\ 2.32320000000003 \\ 3.11750000000001 \\ 1.66580000000000 \end{bmatrix}
+\]
+\\
+\noindent La tabella seguente mostra il condizionamento della matrice restituita dagli algoritmi di fattorizzazione ed i vari confronti di errori relativi sui dati di ingresso (\(||r||/||b||\)) e sul risultato (\(||x-\hat{x}||/||\hat{x}||\)):
+\bigskip{}
+\noindent\begin{tabular}{l*{20}{c}}
+Fattorizzazione & \vline& \(\hat{x}\) & \vline& \(cond(A, 2)\) & \vline& \(||r||/||b||\) & \vline& \(||x-\hat{x}||/||\hat{x}||\) \\
+\hline
+\(LDL^T\)    & \vline& \(\hat{x}_3\) & \vline& \(3.6158 \times 10^3\) & \vline& \(4.4142 \times 10^{-17}\)	& \vline& \(8.3347 \times 10^{-16}\)   \\
+\(LU\) pivot & \vline& \(\hat{x}_4\) & \vline& 319.1025 & \vline& \(9.0270 \times 10^{-17}\)	& \vline& \(8.4115 \times 10^{-15}\) 	 \\
+
+\end{tabular}
+\\
+
+\noindent Il codice Matlab usato per realizzare i precedenti esempi è il seguente:\\
+\lstinputlisting[language=Matlab]{es3_5.m}
+\bigskip{}
+\textbf{Esercizio 3.6} \textit{Sia \(A = \begin{pmatrix} \epsilon & 1 \\ 1 & 1 \end{pmatrix}\) con $\epsilon=10^{-13}$.  Definire L triangolare inferiore a diagonale unitaria e U triangolare superiore in modo che il prodotto LU sia la fattorizzazione LU di A e, posto \(b=Ae\) con \(e=(1,1)^{T}\), confrontare l'accuratezza della soluzione che si ottiene usando il comando \(U \textbackslash (L \textbackslash b)\) (Gauss senza pivoting) e il comando \(A \textbackslash b\) (Gauss con pivoting).}\\
+\textbf{Soluzione: }
+Data la matrice A possiamo scrivere:\\
+			\begin{center}
+				$ A = L \times U =
+				\begin{bmatrix}
+				1 & 0 \\
+				10^{13} & 1
+				\end{bmatrix}
+				\times
+				\begin{bmatrix}
+				10^{-13} & 1 \\
+				0 & 1 - 10^{13}
+				\end{bmatrix} $ \\
+			\end{center}
+
+			\lstinputlisting[language = matlab]{es3_6.m}
+			\noindent Calcoliamo \(b\):
+
+			\[b = Ae = \begin{pmatrix} \epsilon & 1 \\ 1 & 1 \end{pmatrix} \begin{bmatrix} 1 \\ 1\end{bmatrix} = \begin{bmatrix} \approx 1 \\ 2 \end{bmatrix}\]
+			\[U \textbackslash (L \textbackslash b) = \begin{bmatrix} 0.992 \\ 1\end{bmatrix}\]
+			\[A \textbackslash b = \begin{bmatrix} 1 \\ 1\end{bmatrix}\]
+
+			Dai calcoli richiesti segue che :\\
+			\begin{center}
+				$\varepsilon_{U \setminus (L \setminus b)} = 5.6517 \cdot 10^{-4}$ \hspace{10 pt} ed \hspace{10 pt} $ \varepsilon_{A \setminus b} = 2.2204 \cdot 10^{-16}$ \\
+			\end{center}
+			\noindent Si nota che il vettore \(b\) calcolato col metodo di Gauss senza pivoting abbia un'accuratezza minore rispetto alla sua versione calcolata con il metodo di Gauss con pivoting.
+			\\
+\bigskip
+\textbf{Esercizio 3.7} \textit{Scrivere una function Matlab specifica per la risoluzione di un sistema lineare con matrice dei coefficienti \(A \in R^{n \times n}\) bidiagonale inferiore a diagonale unitaria di Toeplitz, specificabile con uno scalare \(\alpha\). Sperimentarne e commentarne le prestazioni (considerare il numero di condizionamento della matrice) nel caso in cui \(n=12\) e \(\alpha=100\) ponendo dapprima \(b=(1, 101, \ldots, 101)^T\) (soluzione esatta \(\hat{x}=(1,\ldots ,1)^T\)) e quindi \(b=0.1 * (1, 101, \ldots, 101)^T\) (soluzione esatta \(\hat{x}=(0.1,\ldots ,0.1)^T\)).}\\
+\medskip
+\textbf{Soluzione: } \noindent Ricordando che le matrici bidiagonali inferiori a diagonale unitaria di Toeplitz sono le matrici \(A \in R^{n \times n}\) del tipo \[\begin{pmatrix} 1 & 0 & 0 & \cdots & 0 \\ \alpha & 1 & 0 & \cdots & 0 \\ 0 & \alpha & 1 & \cdots & 0 \\ \vdots & \vdots & \vdots & \vdots & \vdots \\ 0 & \cdots & 0 & \alpha & 1\end{pmatrix}\]
+\lstinputlisting[language=Matlab]{es3_7.m}
+Il seguente codice seguente applica le due function appena mostrate calcolando il condizionamento del problema e la soluzione nei due casi richiesti con $n = 12$ e $\alpha = 100$:\\
+\lstinputlisting[language=Matlab]{es3_7_esempio.m}
+Il numero di conzionamento risulta essere infinito.
+Di seguito vengono mostrati i risultati ottenuti nel primo caso e nel secondo caso relative a $x_{1}$ e $x_{2}$:
+\[
+x_1=\begin{bmatrix} 1 \\1\\1\\1\\1\\1\\1\\1\\1\\1\\1\\1\end{bmatrix}^T\qquad x_2=\begin{bmatrix}0.1000\\ 0.1000 \\ 0.1000 \\ 0.1000 \\ 0.1000 \\ 0.1000 \\ 0.1000 \\ 0.1014 \\ -0.0407 \\ 14.1702 \\ -1.4069 \times 10^3 \\ 1.4070 \times 10^5 \end{bmatrix}^T
+\]\\
+\bigskip
+\textbf{Esercizio 3.8} \textit{Scrivere una function che, dato un sistema lineare sovradeterminato Ax = b, con \(A \in R^{m \times n}\), \(m > n\), \(rank(A)=n\) e \(b \in R^m\), preso come input b e l'output dell'Algoritmo 3.8 del libro (matrice A riscritta con la parte significativa dei vettori di Householder normalizzati con prima componente unitaria), ne calcoli efficientemente la soluzione nel senso dei minimi quadrati.}\\
+\textbf{Soluzione: }
+\lstinputlisting[language=Matlab]{es3_8.m}
+\bigskip
+\textbf{Esercizio 3.9} \textit{Inserire due esempi diutilizzo della function implementata per il punto 8 e confrontare la soluzione ottenuta con quella fornita dal comando \(A \textbackslash b\).}\\
+\textbf{Soluzione: }Per il primo esempio utilizzeremo:\\
+\[
+A_1 = \begin{pmatrix} 4 & 2 & 2 \\ 1 & 1& 2 \\ 2 & 3 & 4 \\ 2 & 1 & 1 \end{pmatrix} \quad b_1 = \begin{bmatrix} 4\\5\\4\\1 \end{bmatrix}
+\]\\
+La funzione restituisce:
+\[
+	x_{1} = \begin{bmatrix}1.533333333333334 \\ -5.99999999999999\\ 4.73333333333333 \end{bmatrix}^T \qquad e \qquad A_{1}\textbackslash b_{1} = \begin{bmatrix}1.53333333333333 \\ -6.00000000000000 \\ 4.73333333333333 \end{bmatrix}^T
+\]\\
+Per il secondo esempio invece:
+\[
+A_1 = \begin{pmatrix} 1 & 2 \\ 2 & 6 \\ 4 & 3 \end{pmatrix} \quad b_1 = \begin{bmatrix} 4\\5\\6 \end{bmatrix}
+\]\\
+La funzione restituisce:
+\[
+	x_{1} = \begin{bmatrix}1.15014164305949 \\ 0.532577903682720 \end{bmatrix}^T \qquad e \qquad A_{1}\textbackslash b_{1} = \begin{bmatrix}1.15014164305949 \\ 0.532577903682719 \end{bmatrix}^T
+\]\\
+In entrambi i casi $A\textbackslash b \approx x$\\
+Il codice Matlab:
+\lstinputlisting[language=Matlab]{es3_9.m}
+\bigskip
+\textbf{Esercizio 3.10} \textit{Scrivere una function Matlab che realizza il metodo di Newton per un sistema nonlineare (prevedere un numero massimo di iterazioni e utilizzare il criteri di arresto basato sull'incremento in norma euclidea). Utilizzare la function costruita al punto 4 per la risoluzione del sistema lineare ad ogni iterazione.}\\
+\textbf{Soluzione: }\lstinputlisting[language=Matlab]{es3_10.m}
+\bigskip
+\textbf{Esercizio 3.11} \textit{Verificato che la funzione \(f(x_1,x_2) = x_1^2+x_2^3-x_1x_2\) ha un punto di minimo relativo in (1/12, 1/6), costruire una tabella in cui si riportano il numero di iterazioni eseguite, e la norma euclidea dell'ultimo incremento e quella dell'errore con cui viene approssimato il risultato esatto utilizzando la function sviluppata al punto precedente per valori delle tolleranze pari a \(10^{-t}\), con t = 3,6. Utilizzare (1/2, 1/2) come punto di innesco. Verificare che la norma dell'errore è molto più piccola di quella dell'incremento (come mai?)}\\
+\textbf{Soluzione: }
+\noindent Verifichiamo l'esistenza di un punto di minimo relativo in \((\frac{1}{12}, \frac{1}{6})\) considerando il sistema non lineare:
+\[
+F(\vec{x}) = \vec{0} \quad \text{con} \quad F = \begin{bmatrix}\frac{\partial}{\partial x_1}f(x_1,x_2) \\ \frac{\partial}{\partial x_2}f(x_1,x_2)  \end{bmatrix}
+\]
+\[
+\frac{\partial}{\partial x_1}f(x_1,x_2) = 2x_1 -x_2 \quad \frac{\partial}{\partial x_2}f(x_1,x_2) = 3x_2^2 - x_1
+\]
+\[
+\begin{cases}
+2x_1 -x_2 = 0 \\
+3y^2 - x_1 = 0
+\end{cases}
+\quad \text{ha come soluzioni} \quad \begin{bmatrix}0 & 0 \end{bmatrix} \quad \text{e} \quad \begin{bmatrix}\frac{1}{12} & \frac{1}{6}\end{bmatrix}
+\]
+\\
+\noindent I punti trovati sono punti stazionari della funzione data.\\ Consideriamo la matrice Hessiana della funzione \(f(x,x_2)\), che coincide con la matrice Jacobiana della funzione \(F\):
+\[
+H =
+\begin{bmatrix} f_{x_1x_1} & f_{x_1x_2} \\ f_{x_2x_1} & f_{x_2x_2} \end{bmatrix}
+=
+\begin{bmatrix} 2 & -1 \\ -1 & 6x_2 \end{bmatrix}
+= J_F
+\quad
+\det(H) = 12x_2 - 1
+\]
+
+\noindent Il determinante della matrice Hessiana è positivo per \(x_2=\frac{1}{6}\), ed il primo elemento è positivo qui abbiamo un punto di minimo relativo in \((\frac{1}{12}, \frac{1}{6})\).
+\\
+\bigskip
+\noindent I seguenti dati sono stati ottenuti considerando come soluzione esatta \(\hat{x} = [\frac{1}{12}, \frac{1}{6}]\) e come ultimo incremento la quantità \(||x^{(i)} - x^{(i-1)}||\):
+\\
+
+\[
+\begin{tabular}{l*{15}{c}}
+ Tolleranza & \vline& iterazioni & \vline& \(||x^{(i)} - x^{(i-1)}||\) & \vline& \(||x - \hat{x}||\) \\
+\hline
+ \(10^{-3}\) & \vline& 5 &\vline& 2.8369 \(\times 10^{-4}\) & \vline& 4.3190 \(\times 10^{-7}\) \\
+ \(10^{-4}\) & \vline& 6 &\vline& 4.3190 \(\times 10^{-7}\) & \vline& 1.0011 \(\times 10^{-12}\) \\
+ \(10^{-5}\) & \vline& 6 &\vline& 4.3190 \(\times 10^{-7}\) & \vline& 1.0011 \(\times 10^{-12}\) \\
+ \(10^{-6}\) & \vline& 6 &\vline& 4.3190 \(\times 10^{-7}\) & \vline& 1.0011 \(\times 10^{-12}\) \\
+\end{tabular}
+\] \\
+La norma dell

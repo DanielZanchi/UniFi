@@ -1,0 +1,2041 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.2)  29 AUG 2018 15:05
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Cap6.tex
+(./Cap6.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+
+./Cap6.tex:2: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{flushleft}
+                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+[] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+
+Overfull \hbox (44.45949pt too wide) in paragraph at lines 5--9
+\OT1/cmr/bx/n/10 Esercizio 
+ []
+
+
+Overfull \hbox (14.69437pt too wide) in paragraph at lines 5--9
+\OT1/cmr/bx/n/10 6.1 
+ []
+
+
+Overfull \hbox (21.08318pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 Scri- 
+ []
+
+
+Overfull \hbox (17.50539pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 vere 
+ []
+
+
+Overfull \hbox (16.09991pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 una 
+ []
+
+
+Overfull \hbox (22.23318pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 func- 
+ []
+
+
+Overfull \hbox (17.12212pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 tion 
+ []
+
+
+Overfull \hbox (20.97763pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 Mat- 
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 lab 
+ []
+
+
+Overfull \hbox (14.311pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 che 
+ []
+
+
+Overfull \hbox (26.70535pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 generi 
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 la 
+ []
+
+
+Overfull \hbox (16.86656pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 ma- 
+ []
+
+
+Overfull \hbox (19.29427pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 trice 
+ []
+
+
+Overfull \hbox (27.21649pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 sparsa 
+ []
+
+
+Overfull \hbox (13.78015pt too wide) in paragraph at lines 5--9
+\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^B 
+ []
+
+
+Overfull \hbox (9.069pt too wide) in paragraph at lines 5--9
+\OML/cmm/m/it/10 n$\OT1/cmr/m/it/10 , 
+ []
+
+
+Overfull \hbox (14.82211pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/it/10 con 
+ []
+
+
+Overfull \hbox (16.55786pt too wide) in paragraph at lines 5--9
+\OML/cmm/m/it/10 n > 
+ []
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 5--9
+\OT1/cmr/m/n/10 10$  
+ []
+
+./Cap6.tex:9: Misplaced alignment tab character &.
+<argument> ...\ $$ A_n = \begin {pmatrix} a_{11} &
+                                                   \ldots & a_{1n} \\ \vdots...
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Cap6.tex:9: Misplaced alignment tab character &.
+<argument> ...= \begin {pmatrix} a_{11} & \ldots &
+                                                   a_{1n} \\ \vdots & & \vdo...
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./Cap6.tex:9: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Cap6.tex:9: Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Cap6.tex:9: Missing } inserted.
+<inserted text> 
+                }
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Cap6.tex:9: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Cap6.tex:9: Display math should end with $$.
+<to be read again> 
+                   \@@par 
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Overfull \hbox (80.86098pt too wide) detected at line 9
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 = [][] [] \OML/cmm/m/it/10 a[][]
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
+./Cap6.tex:9: Misplaced alignment tab character &.
+<argument> ...a_{11} & \ldots & a_{1n} \\ \vdots &
+                                                   & \vdots \\ a_{n1} & \ldo...
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Cap6.tex:9: Misplaced alignment tab character &.
+<argument> ...{11} & \ldots & a_{1n} \\ \vdots & &
+                                                   \vdots \\ a_{n1} & \ldots...
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no . in font nullfont!
+
+./Cap6.tex:9: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no a in font nullfont!
+./Cap6.tex:9: Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Cap6.tex:9: Misplaced alignment tab character &.
+<argument> ...1n} \\ \vdots & & \vdots \\ a_{n1} &
+                                                   \ldots & a_{nn}\end {pmat...
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Cap6.tex:9: Misplaced alignment tab character &.
+<argument> ...dots & & \vdots \\ a_{n1} & \ldots &
+                                                   a_{nn}\end {pmatrix}, \qq...
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./Cap6.tex:9: LaTeX Error: \begin{flushleft} on input line 2 ended by \end{pmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Cap6.tex:9: Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no , in font nullfont!
+./Cap6.tex:9: Undefined control sequence.
+<argument> ... a_{nn}\end {pmatrix}, \qquad \text 
+                                                  {con } \qquad a_{ij} \begi...
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+./Cap6.tex:9: Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Cap6.tex:9: Undefined control sequence.
+<argument> ...qquad a_{ij} \begin {cases} 4 \text 
+                                                  { se } i = j \\ -1 \text {...
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Cap6.tex:9: Undefined control sequence.
+<argument> ...s} 4 \text { se } i = j \\ -1 \text 
+                                                  { se } i = j \pm 1 \\ -1 \...
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Cap6.tex:9: Undefined control sequence.
+<argument> ...text { se } i = j \pm 1 \\ -1 \text 
+                                                  { se } i = j \pm 10\end {c...
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Cap6.tex:9: Undefined control sequence.
+<argument> ... fine la function Matlab \lstinline 
+                                                  {spdiags}.
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Cap6.tex:9: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.9 ...ne la function Matlab \lstinline{spdiags}.}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Cap6.tex:11: Undefined control sequence.
+l.11 \lstinputlisting
+                     [language=Matlab]{Capitolo6/es6_1.m}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Cap6.tex:22: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \end{center}}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Cap6.tex:22: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \end{center}}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Cap6.tex:22: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \end{center}}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Cap6.tex:22: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \end{center}}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Cap6.tex:22: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \end{center}}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Cap6.tex:22: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \end{center}}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Cap6.tex:23: Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \textbf{Soluzione: }La tabella richiesta è la
+                                                   seguente:\\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+./Cap6.tex:24: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \[
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Cap6.tex:25: Undefined control sequence.
+l.25 \includegraphics
+                     [scale=0.4]{Capitolo6/es6_2.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Cap6.tex:26: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \]
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Cap6.tex:28: Undefined control sequence.
+l.28 \lstinputlisting
+                     [language=Matlab]{Capitolo6/es6_2.m}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Cap6.tex:29: Missing $ inserted.
+<inserted text> 
+                $
+l.29 \newpage
+             
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (40.10187pt too wide) in paragraph at lines 9--29
+[]$[] [] \OML/cmm/m/it/10 a[]$
+ []
+
+
+Overfull \hbox (46.58716pt too wide) in paragraph at lines 9--29
+[] [] []\OML/cmm/m/it/10 i \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (4.69049pt too wide) in paragraph at lines 9--29
+\OML/cmm/m/it/10 j[] 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 9--29
+\OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (28.34442pt too wide) in paragraph at lines 9--29
+\OT1/cmr/m/n/10 1[]\OML/cmm/m/it/10 i \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (12.46829pt too wide) in paragraph at lines 9--29
+\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 ^^F
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 9--29
+\OT1/cmr/m/n/10 1[] 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 9--29
+\OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (28.34442pt too wide) in paragraph at lines 9--29
+\OT1/cmr/m/n/10 1[]\OML/cmm/m/it/10 i \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (12.46829pt too wide) in paragraph at lines 9--29
+\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 ^^F
+ []
+
+
+Overfull \hbox (227.31781pt too wide) in paragraph at lines 9--29
+\OT1/cmr/m/n/10 10$$\OML/cmm/m/it/10 UtilizzareaquestofinelafunctionMatlab[]:[] 
+ []
+
+
+Overfull \hbox (109.46854pt too wide) in paragraph at lines 9--29
+[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 language \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (1601.26204pt too wide) in paragraph at lines 9--29
+\OML/cmm/m/it/10 Matlab\OT1/cmr/m/n/10 ][][][][]\OML/cmm/m/it/10 Latabellarichiestaseguente \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (35.47108pt too wide) in paragraph at lines 9--29
+\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 scale \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (282.36996pt too wide) in paragraph at lines 9--29
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4][]\OML/cmm/m/it/10 Generatagraziealseguentecodicematlab \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (53.72577pt too wide) in paragraph at lines 9--29
+\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 language \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (113.72333pt too wide) in paragraph at lines 9--29
+\OML/cmm/m/it/10 Matlab\OT1/cmr/m/n/10 ][]$ 
+ []
+
+
+./Cap6.tex:29: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \newpage
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+./Cap6.tex:30: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \textbf{Esercizio 6.3}
+                            \textit{	Utilizzare il metodo di Jacobi per riso...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (64.45949pt too wide) in paragraph at lines 30--34
+[]\OT1/cmr/bx/n/10 Esercizio
+ []
+
+
+Overfull \hbox (14.69437pt too wide) in paragraph at lines 30--34
+\OT1/cmr/bx/n/10 6.3
+ []
+
+
+Overfull \hbox (17.39987pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 Uti-
+ []
+
+
+Overfull \hbox (13.2888pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 liz-
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 zare
+ []
+
+
+Overfull \hbox (5.6222pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 il
+ []
+
+
+Overfull \hbox (30.92201pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 metodo
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 di
+ []
+
+
+Overfull \hbox (13.93878pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 Ja-
+ []
+
+
+Overfull \hbox (16.86653pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 cobi
+ []
+
+
+Overfull \hbox (13.41655pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 per
+ []
+
+
+Overfull \hbox (10.86102pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 ri-
+ []
+
+
+Overfull \hbox (15.33324pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 sol-
+ []
+
+
+Overfull \hbox (17.50539pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 vere
+ []
+
+
+Overfull \hbox (5.6222pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 il
+ []
+
+
+Overfull \hbox (14.82213pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 sis-
+ []
+
+
+Overfull \hbox (21.21097pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 tema
+ []
+
+
+Overfull \hbox (14.82213pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 lin-
+ []
+
+
+Overfull \hbox (17.50539pt too wide) in paragraph at lines 30--34
+\OT1/cmr/m/it/10 eare 
+ []
+
+
+Overfull \hbox (60.50423pt too wide) detected at line 34
+\OML/cmm/m/it/10 A[][] \OT1/cmr/m/n/10 = [] [] [][] 1\OML/cmm/m/it/10 ;
+ []
+
+
+./Cap6.tex:34: Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...$ che varia da 100 a 1000 (con passo 20).}
+                                                  \\
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Overfull \hbox (19.42209pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 dove
+ []
+
+
+Overfull \hbox (12.94334pt too wide) in paragraph at lines 34--36
+\OML/cmm/m/it/10 A[]$
+ []
+
+
+Overfull \hbox (16.86656pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 ma-
+ []
+
+
+Overfull \hbox (19.29427pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 trice
+ []
+
+
+Overfull \hbox (32.45535pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 definita
+ []
+
+
+Overfull \hbox (8.68884pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 in
+ []
+
+
+Overfull \hbox (16.35547pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 (1),
+ []
+
+
+Overfull \hbox (14.82211pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 con
+ []
+
+
+Overfull \hbox (26.4498pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 toller-
+ []
+
+
+Overfull \hbox (19.93323pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 anza
+ []
+
+
+Overfull \hbox (22.19443pt too wide) in paragraph at lines 34--36
+\OML/cmm/m/it/10 tol \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (23.80283pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/n/10 10[]$\OT1/cmr/m/it/10 ,
+ []
+
+
+Overfull \hbox (4.59996pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 e
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 par-
+ []
+
+
+Overfull \hbox (23.76651pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 tendo
+ []
+
+
+Overfull \hbox (12.77771pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 dal
+ []
+
+
+Overfull \hbox (16.09985pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 vet-
+ []
+
+
+Overfull \hbox (16.73874pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 tore
+ []
+
+
+Overfull \hbox (24.78876pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 nullo.
+ []
+
+
+Overfull \hbox (25.7526pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 Grafi-
+ []
+
+
+Overfull \hbox (17.50539pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 care
+ []
+
+
+Overfull \hbox (5.6222pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 il
+ []
+
+
+Overfull \hbox (14.56657pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 nu-
+ []
+
+
+Overfull \hbox (21.59428pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 mero
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 di
+ []
+
+
+Overfull \hbox (9.96658pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 it-
+ []
+
+
+Overfull \hbox (12.39433pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 er-
+ []
+
+
+Overfull \hbox (26.06653pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 azioni
+ []
+
+
+Overfull \hbox (17.88873pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 nec-
+ []
+
+
+Overfull \hbox (12.26657pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 es-
+ []
+
+
+Overfull \hbox (24.14984pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 sarie,
+ []
+
+
+Overfull \hbox (32.32753pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 rispetto
+ []
+
+
+Overfull \hbox (15.84436pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 alla
+ []
+
+
+Overfull \hbox (11.75548pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 di-
+ []
+
+
+Overfull \hbox (21.97763pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 men-
+ []
+
+
+Overfull \hbox (22.48875pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 sione
+ []
+
+
+Overfull \hbox (6.00235pt too wide) in paragraph at lines 34--36
+\OML/cmm/m/it/10 n$
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 del
+ []
+
+
+Overfull \hbox (22.10538pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 prob-
+ []
+
+
+Overfull \hbox (23.51097pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 lema,
+ []
+
+
+Overfull \hbox (14.82211pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 con
+ []
+
+
+Overfull \hbox (6.00235pt too wide) in paragraph at lines 34--36
+\OML/cmm/m/it/10 n$
+ []
+
+
+Overfull \hbox (14.311pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 che
+ []
+
+
+Overfull \hbox (22.10541pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 varia
+ []
+
+
+Overfull \hbox (10.22217pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 da
+ []
+
+
+Overfull \hbox (15.33325pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 100
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 a
+ []
+
+
+Overfull \hbox (20.44434pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 1000
+ []
+
+
+Overfull \hbox (18.91098pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 (con
+ []
+
+
+Overfull \hbox (22.99986pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 passo
+ []
+
+
+Overfull \hbox (17.37769pt too wide) in paragraph at lines 34--36
+\OT1/cmr/m/it/10 20). 
+ []
+
+
+Overfull \hbox (50.63168pt too wide) in paragraph at lines 34--36
+\OT1/cmr/bx/n/10 Soluzione:
+ []
+
+./Cap6.tex:37: Undefined control sequence.
+l.37 	\includegraphics
+                      [scale=0.35]{Capitolo6/es6_3.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (144.6851pt too wide) detected at line 38
+\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 scale \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 35][]
+ []
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no : in font nullfont!
+./Cap6.tex:40: Undefined control sequence.
+l.40 \lstinputlisting
+                     [language=Matlab]{Capitolo6/es6_3.m}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 6 in font nullfont!
+./Cap6.tex:40: Missing $ inserted.
+<inserted text> 
+                $
+l.40 ...putlisting[language=Matlab]{Capitolo6/es6_
+                                                  3.m}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Cap6.tex:40: Extra }, or forgotten $.
+l.40 ...isting[language=Matlab]{Capitolo6/es6_3.m}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Cap6.tex:41: Missing $ inserted.
+<inserted text> 
+                $
+l.41 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (16.04405pt too wide) in paragraph at lines 38--41
+        $[]\OML/cmm/m/it/10 :m$ 
+ []
+
+
+./Cap6.tex:43: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \textbf{Esercizio 6.4}
+                            \textit{ Ripetere una procedura analoiga a quell...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (64.45949pt too wide) in paragraph at lines 43--45
+[]\OT1/cmr/bx/n/10 Esercizio
+ []
+
+
+Overfull \hbox (14.69437pt too wide) in paragraph at lines 43--45
+\OT1/cmr/bx/n/10 6.4
+ []
+
+
+Overfull \hbox (35.53302pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 Ripetere
+ []
+
+
+Overfull \hbox (16.09991pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 una
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 pro-
+ []
+
+
+Overfull \hbox (12.26654pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 ce-
+ []
+
+
+Overfull \hbox (19.29431pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 dura
+ []
+
+
+Overfull \hbox (36.28868pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 analoiga
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 a
+ []
+
+
+Overfull \hbox (25.29984pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 quella
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 del
+ []
+
+
+Overfull \hbox (25.17197pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 prece-
+ []
+
+
+Overfull \hbox (23.25539pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 dente
+ []
+
+
+Overfull \hbox (12.26657pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 es-
+ []
+
+
+Overfull \hbox (12.39433pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 er-
+ []
+
+
+Overfull \hbox (19.93321pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 cizio
+ []
+
+
+Overfull \hbox (15.33322pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 uti-
+ []
+
+
+Overfull \hbox (13.2888pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 liz-
+ []
+
+
+Overfull \hbox (25.04431pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 zando
+ []
+
+
+Overfull \hbox (5.6222pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 il
+ []
+
+
+Overfull \hbox (30.92201pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 metodo
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 di
+ []
+
+
+Overfull \hbox (29.96927pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 Gauss-
+ []
+
+
+Overfull \hbox (28.62204pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/it/10 Seidel. 
+ []
+
+
+Overfull \hbox (50.63168pt too wide) in paragraph at lines 43--45
+\OT1/cmr/bx/n/10 Soluzione:
+ []
+
+./Cap6.tex:46: Undefined control sequence.
+l.46 	\includegraphics
+                      [scale=0.35]{Capitolo6/es6_4.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (144.6851pt too wide) detected at line 47
+\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 scale \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 35][]
+ []
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no : in font nullfont!
+./Cap6.tex:49: Undefined control sequence.
+l.49 \lstinputlisting
+                     [language=Matlab]{Capitolo6/es6_4.m}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 6 in font nullfont!
+./Cap6.tex:49: Missing $ inserted.
+<inserted text> 
+                $
+l.49 ...putlisting[language=Matlab]{Capitolo6/es6_
+                                                  4.m}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Cap6.tex:49: Extra }, or forgotten $.
+l.49 ...isting[language=Matlab]{Capitolo6/es6_4.m}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Cap6.tex:50: Missing $ inserted.
+<inserted text> 
+                $
+l.50 \newpage
+             
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (16.04405pt too wide) in paragraph at lines 47--50
+        $[]\OML/cmm/m/it/10 :m$ 
+ []
+
+
+./Cap6.tex:50: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \newpage
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2]
+
+./Cap6.tex:51: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \textbf{Esercizio 6.5}
+                            \textit{
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Cap6.tex:52: Undefined control sequence.
+<argument> ...l. Utilizzare il formato \lstinline 
+                                                  {semilogy} per realizzare ...
+l.52 ...afico, corredandolo di opportune $label$.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+
+./Cap6.tex:54: Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 Il seguente grafico è re
+                             alizzato con le ascisse in scala logaritmica tr...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (64.45949pt too wide) in paragraph at lines 51--55
+[]\OT1/cmr/bx/n/10 Esercizio
+ []
+
+
+Overfull \hbox (14.69437pt too wide) in paragraph at lines 51--55
+\OT1/cmr/bx/n/10 6.5
+ []
+
+
+Overfull \hbox (17.88878pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 Con
+ []
+
+
+Overfull \hbox (22.74426pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 rifer-
+ []
+
+
+Overfull \hbox (6.6444pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 i-
+ []
+
+
+Overfull \hbox (26.83316pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 mento
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 al
+ []
+
+
+Overfull \hbox (14.82213pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 sis-
+ []
+
+
+Overfull \hbox (21.21097pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 tema
+ []
+
+
+Overfull \hbox (14.82213pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 lin-
+ []
+
+
+Overfull \hbox (17.50539pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 eare
+ []
+
+
+Overfull \hbox (16.35547pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 (2),
+ []
+
+
+Overfull \hbox (14.82211pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 con
+ []
+
+
+Overfull \hbox (16.55786pt too wide) in paragraph at lines 51--55
+\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (23.06671pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/n/10 1000$\OT1/cmr/m/it/10 ,
+ []
+
+
+Overfull \hbox (22.61649pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 grafi-
+ []
+
+
+Overfull \hbox (17.50539pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 care
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 la
+ []
+
+
+Overfull \hbox (28.23872pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 norma
+ []
+
+
+Overfull \hbox (12.7777pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 dei
+ []
+
+
+Overfull \hbox (29.00536pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 residui
+ []
+
+
+Overfull \hbox (32.32753pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 rispetto
+ []
+
+
+Overfull \hbox (39.3553pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 all'indice
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 di
+ []
+
+
+Overfull \hbox (9.96658pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 it-
+ []
+
+
+Overfull \hbox (12.39433pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 er-
+ []
+
+
+Overfull \hbox (30.66649pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 azione,
+ []
+
+
+Overfull \hbox (34.6275pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 generati
+ []
+
+
+Overfull \hbox (13.28882pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 dai
+ []
+
+
+Overfull \hbox (28.87758pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 metodi
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 di
+ []
+
+
+Overfull \hbox (13.93878pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 Ja-
+ []
+
+
+Overfull \hbox (16.86653pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 cobi
+ []
+
+
+Overfull \hbox (4.59996pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 e
+ []
+
+
+Overfull \hbox (29.96927pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 Gauss-
+ []
+
+
+Overfull \hbox (28.62204pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 Seidel.
+ []
+
+
+Overfull \hbox (17.39987pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 Uti-
+ []
+
+
+Overfull \hbox (13.2888pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 liz-
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 zare
+ []
+
+
+Overfull \hbox (5.6222pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 il
+ []
+
+
+Overfull \hbox (15.9721pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 for-
+ []
+
+
+Overfull \hbox (21.72209pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 mato
+ []
+
+
+Overfull \hbox (26.0665pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 semil-
+ []
+
+
+Overfull \hbox (14.05544pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 ogy
+ []
+
+
+Overfull \hbox (13.41655pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 per
+ []
+
+
+Overfull \hbox (11.88321pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 re-
+ []
+
+
+Overfull \hbox (11.24437pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 al-
+ []
+
+
+Overfull \hbox (10.73326pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 iz-
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 zare
+ []
+
+
+Overfull \hbox (5.6222pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 il
+ []
+
+
+Overfull \hbox (31.30531pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 grafico,
+ []
+
+
+Overfull \hbox (40.633pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 corredan-
+ []
+
+
+Overfull \hbox (17.8888pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 dolo
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 di
+ []
+
+
+Overfull \hbox (13.79991pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 op-
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 por-
+ []
+
+
+Overfull \hbox (18.91098pt too wide) in paragraph at lines 51--55
+\OT1/cmr/m/it/10 tune
+ []
+
+
+Overfull \hbox (23.6616pt too wide) in paragraph at lines 51--55
+\OML/cmm/m/it/10 label$\OT1/cmr/m/it/10 .
+ []
+
+
+Overfull \hbox (50.63168pt too wide) in paragraph at lines 51--55
+\OT1/cmr/bx/n/10 Soluzione:
+ []
+
+./Cap6.tex:56: Undefined control sequence.
+l.56 	\includegraphics
+                      [scale=0.35]{Capitolo6/es6_5.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (144.6851pt too wide) detected at line 57
+\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 scale \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 35][]
+ []
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no : in font nullfont!
+./Cap6.tex:59: Undefined control sequence.
+l.59 \lstinputlisting
+                     [language=Matlab]{Capitolo6/es6_5.m}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 6 in font nullfont!
+./Cap6.tex:59: Missing $ inserted.
+<inserted text> 
+                $
+l.59 ...putlisting[language=Matlab]{Capitolo6/es6_
+                                                  5.m}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Cap6.tex:59: Extra }, or forgotten $.
+l.59 ...isting[language=Matlab]{Capitolo6/es6_5.m}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Cap6.tex:60: Missing $ inserted.
+<inserted text> 
+                $
+l.60 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (16.04405pt too wide) in paragraph at lines 57--60
+        $[]\OML/cmm/m/it/10 :m$ 
+ []
+
+
+./Cap6.tex:61: LaTeX Error: \begin{document} ended by \end{flushleft}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \end{flushleft}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Cap6.tex:61: Missing } inserted.
+<inserted text> 
+                }
+l.61 \end{flushleft}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Cap6.tex:61: Missing } inserted.
+<inserted text> 
+                }
+l.61 \end{flushleft}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Cap6.tex:61: Missing } inserted.
+<inserted text> 
+                }
+l.61 \end{flushleft}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Cap6.tex:61: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.61 \end{flushleft}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+)
+! Emergency stop.
+<*> Cap6.tex
+            
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 22 strings out of 492649
+ 274 string characters out of 6129623
+ 61510 words of memory out of 5000000
+ 4000 multiletter control sequences out of 15000+600000
+ 4653 words of font info for 17 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 20i,11n,14p,318b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

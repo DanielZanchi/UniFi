@@ -1,0 +1,33 @@
+\markboth{CAPITOLO 5. ESERCIZI A.A. 2017-18}{CAPITOLO 5. ESERCIZI A.A. 2017-18}
+\begin{flushleft}
+\textbf{Esercizio 5.1} \textit{Scrivere una function Matlab che implementi la formula composita dei trapezi su \(n+1\) ascisse equidistanti nell'intervallo \([a, b]\) relativamente alla funzione implementata da \lstinline[language=Matlab]{Capitolo5/fun(x)}.\\La function deve essere del tipo \lstinline[language=Matlab]{Capitolo5/If = trapcomp(a, b, fun, tol)}.}\\
+\textbf{Soluzione: }\lstinputlisting[language=Matlab]{Capitolo5/es5_1.m}
+\bigskip
+\textbf{Esercizio 5.2} \textit{Scrivere una function Matlab che implementi la formula composita di Simpson su \(2n+1\) ascisse equidistanti nell'intervallo \([a, b,]\) relativamente alla funzione implementata da \lstinline[language=Matlab]{Capitolo5/fun(x)}.\\La function deve essere del tipo \lstinline[language=Matlab]{Capitolo5/If = simpcomp(a, b, fun, tol)}.}\\
+\textbf{Soluzione: }\lstinputlisting[language=Matlab]{Capitolo5/es5_2.m}
+\bigskip
+\textbf{Esercizio 5.3} \textit{Scrivere una function Matlab che implementi la formula composita dei trapezi adattativa nell'intervallo \([a, b]\) relativamente alla funzione implementata da \lstinline[language=Matlab]{Capitolo5/fun(x)} e con tolleranza \lstinline[language=Matlab]{Capitolo5/tol}.\\La function deve essere del tipo \lstinline[language=Matlab]{Capitolo5/If = trapad(a, b, fun, tol)}.}\\
+\textbf{Soluzione: }\lstinputlisting[language=Matlab]{Capitolo5/es5_3.m}
+\bigskip
+\textbf{Esercizio 5.4} \textit{Scrivere una function Matlab che implementi la formula composita di Simpson adattativa nell'intervallo \([a, b]\) relativamente alla funzione implementata da \lstinline[language=Matlab]{Capitolo5/fun(x)} e con tolleranza \lstinline[language=Matlab]{Capitolo5/tol}.\\La function deve essere del tipo \lstinline[language=Matlab]{Capitolo5/If = simpad(a, b, fun, tol)}.}\\
+\textbf{Soluzione: }\lstinputlisting[language=Matlab]{Capitolo5/es5_4.m}
+\bigskip
+\textbf{Esercizio 5.5} \textit{Calcolare quante valutazioni di funzione sono necessarie per ottenere una approssimazione di
+\[I(f) = \int_0^1 \exp(-10^6 x) dx \]
+che vale $10^{-6}$ in doppia precisione IEEE, con una tolleranza $10^{-9}$, utilizzando le functions dei precedenti esercizi. Argomentare quantitativamente la risposta.}\\
+\textbf{Soluzione:} Le functions degli esercizi precedenti esercizi sono state leggermente modificate e sono stati calcolati i seguenti valori:\\
+\[
+\begin{tabular}{l*{15}{c}}
+	Function & \vline & Valutazioni & \vline & Errore \\
+	\hline
+	Trapezi composita & \vline & 10000001 & \vline & $8.3319 \times 10^{-10}$ \\
+	Simpson composita & \vline & 2000002 & \vline & $3.3715 \times 10^{-10}$ \\
+	Trapezi adattiva & \vline & 77823 & \vline & $1.1252 \times 10^{-14}$\\
+	Simpson adattiva & \vline & 1038 & \vline & $1.6469 \times 10^{-14}$\\
+\end{tabular}
+\]
+Possiamo vedere che per la funzione presa in esame performano meglio le formule adattive in quanto individuano i nodi della partizione in base al comportamento locale della funzione, questo permette di minimizzare l'errore e di raggiungere la soglia di tolleranza prestabilita.\\
+Viceversa le formule con ascisse equispaziate si sono rilevate inadeguate per questo tipo di funzione che presenta una rapida variazione di valore in una porzione dell'intervallo molto ristretta.\\
+Il codice utilizzato per ottenere i risultati posti sopra:
+\lstinputlisting[language=Matlab]{Capitolo5/es5_5.m}
+\end{flushleft}
