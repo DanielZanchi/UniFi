@@ -1,0 +1,50 @@
+dist: trusty
+language: java
+
+os:
+ - linux
+jdk:
+  - oraclejdk8
+
+addons:
+  sonarcloud:
+    organization: "federicoguerri-github"
+    token:
+      secure: "77b4026d89a6e705fe586a12b1700d89b4e0c2e8"
+
+services:
+  - docker
+
+cache:
+  directories:
+  - $HOME/.m2
+  - '$HOME/.sonar/cache'
+
+install:
+ - docker pull mongo
+ - docker pull redis
+
+script:
+- sleep 2
+- mvn -f pom.xml clean verify
+- sleep 2
+- mvn -f pom.xml clean verify -Psecond-db
+- mvn -f pom.xml verify -Pdocker-compose package sonar:sonar
+#- mvn clean install sonar:sonar -Dsonar.host.url=https:/sonarqube.com -Dsonar.login="77b4026d89a6e705fe586a12b1700d89b4e0c2e8"
+#- mvn sonar:sonar \
+# -Dsonar.organization=dani1993-github \
+# -Dsonar.host.url=https://sonarcloud.io \
+# -Dsonar.login=a10dedc31f82e4f7860774d99a2545881bf90aa6
+
+before_script:
+- "export DISPLAY=:99.0"
+- "sh -e /etc/init.d/xvfb start"
+- sleep 3 
+
+after_success:
+- mvn clean test jacoco:report coveralls:report
+
+notifications:
+ email: false
+ on_success: never
+ on_failure: never

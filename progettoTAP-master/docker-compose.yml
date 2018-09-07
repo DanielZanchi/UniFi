@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  app:
+    image: fatture-app
+    links:
+      - "mongo:mongo-host"
+      - "redis:redis-host"
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+  redis:
+    image: redis
+    ports:
+      - "127.0.0.1:6379:6379"
